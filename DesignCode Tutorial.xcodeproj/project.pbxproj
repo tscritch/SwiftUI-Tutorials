@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2E578325117D65007CF364 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2E578225117D65007CF364 /* UpdateDetail.swift */; };
 		CF45A2F82510531900DD11EC /* DesignCode_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45A2F72510531900DD11EC /* DesignCode_TutorialApp.swift */; };
 		CF45A2FA2510531900DD11EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45A2F92510531900DD11EC /* ContentView.swift */; };
 		CF45A2FC2510531B00DD11EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF45A2FB2510531B00DD11EC /* Assets.xcassets */; };
 		CF45A2FF2510531B00DD11EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF45A2FE2510531B00DD11EC /* Preview Assets.xcassets */; };
+		CF45A3072510759100DD11EC /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45A3062510759100DD11EC /* MenuView.swift */; };
+		CF45A30925107BFA00DD11EC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45A30825107BFA00DD11EC /* Home.swift */; };
+		CF45A30B251081AA00DD11EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF45A30A251081AA00DD11EC /* HomeView.swift */; };
+		CF578B4B251F00D7003F6D39 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF578B4A251F00D7003F6D39 /* UpdateStore.swift */; };
+		CF578B4E251F019D003F6D39 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF578B4D251F019D003F6D39 /* TabBar.swift */; };
+		CFAF7BB32511760200C064AF /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7BB22511760200C064AF /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF2E578225117D65007CF364 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		CF45A2F42510531900DD11EC /* DesignCode Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DesignCode Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF45A2F72510531900DD11EC /* DesignCode_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode_TutorialApp.swift; sourceTree = "<group>"; };
 		CF45A2F92510531900DD11EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF45A2FB2510531B00DD11EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF45A2FE2510531B00DD11EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF45A3002510531B00DD11EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF45A3062510759100DD11EC /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CF45A30825107BFA00DD11EC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CF45A30A251081AA00DD11EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CF578B4A251F00D7003F6D39 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		CF578B4D251F019D003F6D39 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		CFAF7BB22511760200C064AF /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,13 @@
 			children = (
 				CF45A2F72510531900DD11EC /* DesignCode_TutorialApp.swift */,
 				CF45A2F92510531900DD11EC /* ContentView.swift */,
+				CF45A3062510759100DD11EC /* MenuView.swift */,
+				CF45A30825107BFA00DD11EC /* Home.swift */,
+				CF45A30A251081AA00DD11EC /* HomeView.swift */,
+				CF578B4D251F019D003F6D39 /* TabBar.swift */,
+				CFAF7BB22511760200C064AF /* UpdateList.swift */,
+				CF578B4A251F00D7003F6D39 /* UpdateStore.swift */,
+				CF2E578225117D65007CF364 /* UpdateDetail.swift */,
 				CF45A2FB2510531B00DD11EC /* Assets.xcassets */,
 				CF45A3002510531B00DD11EC /* Info.plist */,
 				CF45A2FD2510531B00DD11EC /* Preview Content */,
@@ -138,7 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF578B4E251F019D003F6D39 /* TabBar.swift in Sources */,
+				CF2E578325117D65007CF364 /* UpdateDetail.swift in Sources */,
 				CF45A2FA2510531900DD11EC /* ContentView.swift in Sources */,
+				CF45A3072510759100DD11EC /* MenuView.swift in Sources */,
+				CFAF7BB32511760200C064AF /* UpdateList.swift in Sources */,
+				CF578B4B251F00D7003F6D39 /* UpdateStore.swift in Sources */,
+				CF45A30925107BFA00DD11EC /* Home.swift in Sources */,
+				CF45A30B251081AA00DD11EC /* HomeView.swift in Sources */,
 				CF45A2F82510531900DD11EC /* DesignCode_TutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
